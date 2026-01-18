@@ -1,8 +1,68 @@
-body {
-  color: rgb(3, 10, 16);
-  background-color: aliceblue;
+@font-face {
+  font-family: "Gilroy";
+  src:
+    url("../css/fonts/Gilroy-Regular.woff2"),
+    url("../css/fonts/Gilroy-Regular.woff");
+  font-weight: 400;
+  font-style: normal;
 }
+
+@font-face {
+  font-family: "Gilroy";
+  src:
+    url("../css/fonts/Gilroy-MediumItalic.woff2"),
+    url("../css/fonts/Gilroy-Medium.woff");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Gilroy";
+  src:
+    url("../css/fonts/Gilroy-Semibold.woff2"),
+    url("../css/fonts/Gilroy-Semibold.woff");
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Gilroy";
+  src: url("../css/fonts/Gilroy-Bold.woff2")
+    url("../css/fonts/Gilroy-Bold.woff");
+  font-weight: 700;
+  font-style: normal;
+}
+
+body {
+  font-family: "Gilroy", sans-serif;
+  color: rgba(12, 12, 12, 0.7);
+  background-color: #fbfbfb;
+}
+
+a {
+  text-decoration: none;
+}
+
 ul,
 ol {
   list-style: none;
+}
+
+.header-logo {
+  font-weight: 500;
+  font-size: 20px;
+  letter-spacing: -0.02em;
+  color: #0c0c0c;
+}
+.header-nav-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.28;
+  color: #0c0c0c;
+}
+.header-social-list {
+}
+.header-social-item {
+}
+.header-social-link {
 }
