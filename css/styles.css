@@ -1,40 +1,40 @@
 @font-face {
-  font-family: "Gilroy";
+  font-family: 'Gilroy';
   src:
-    url("../css/fonts/Gilroy-Regular.woff2"),
-    url("../css/fonts/Gilroy-Regular.woff");
+    url('../css/fonts/Gilroy-Regular.woff2'),
+    url('../css/fonts/Gilroy-Regular.woff');
   font-weight: 400;
   font-style: normal;
 }
 
 @font-face {
-  font-family: "Gilroy";
+  font-family: 'Gilroy';
   src:
-    url("../css/fonts/Gilroy-MediumItalic.woff2"),
-    url("../css/fonts/Gilroy-Medium.woff");
+    url('../css/fonts/Gilroy-MediumItalic.woff2'),
+    url('../css/fonts/Gilroy-Medium.woff');
   font-weight: 500;
   font-style: normal;
 }
 
 @font-face {
-  font-family: "Gilroy";
+  font-family: 'Gilroy';
   src:
-    url("../css/fonts/Gilroy-Semibold.woff2"),
-    url("../css/fonts/Gilroy-Semibold.woff");
+    url('../css/fonts/Gilroy-Semibold.woff2'),
+    url('../css/fonts/Gilroy-Semibold.woff');
   font-weight: 600;
   font-style: normal;
 }
 
 @font-face {
-  font-family: "Gilroy";
-  src: url("../css/fonts/Gilroy-Bold.woff2")
-    url("../css/fonts/Gilroy-Bold.woff");
+  font-family: 'Gilroy';
+  src: url('../css/fonts/Gilroy-Bold.woff2')
+    url('../css/fonts/Gilroy-Bold.woff');
   font-weight: 700;
   font-style: normal;
 }
 
 body {
-  font-family: "Gilroy", sans-serif;
+  font-family: 'Gilroy', sans-serif;
   color: rgba(12, 12, 12, 0.7);
   background-color: #fbfbfb;
 }
@@ -43,11 +43,41 @@ a {
   text-decoration: none;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+/* скидаємо марджин заголовків та параграфів до «0»  */
+
 ul,
 ol {
   list-style: none;
+  padding: 0;
+  margin: 0;
+} /*для видалення маркерів елементів списку, скидаємо марджин падінг та  до «0»*/
+img {
+  display: block;
+}
+* {
+  box-sizing: border-box;
 }
 
+.container {
+  width: 980px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.header-main {
+  display: flex;
+  justify-content: space-between;
+}
 .header-logo {
   font-weight: 500;
   font-size: 20px;
@@ -61,8 +91,60 @@ ol {
   color: #0c0c0c;
 }
 .header-social-list {
+  display: flex;
 }
 .header-social-item {
+  padding-left: 10px;
 }
 .header-social-link {
+}
+.ul-main {
+  display: flex;
+}
+.li-main {
+  padding-left: 20px;
+}
+
+.hero-back {
+  background-color: #2e2f42;
+  padding-top: 188px;
+  padding-bottom: 188px;
+  background-image:
+    linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+    url(../images/dark-bg-dsk.jpg);
+  max-width: 1440px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin: 0 auto;
+}
+.hero-main {
+}
+.hero-img {
+}
+.text-hero {
+}
+.text-hero-first {
+  color: #f2e8e8;
+  text-align: center;
+}
+.comand-com {
+  width: 1440px;
+  background-color: aqua;
+}
+.comand-main {
+}
+.list-comand {
+  display: flex;
+  flex-direction: row;
+}
+.list-comand-foto {
+}
+.task-comand {
+}
+.list-task {
+}
+.list-task-qwest {
+}
+.list-foto {
 }
