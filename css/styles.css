@@ -54,8 +54,7 @@ p {
 }
 /* скидаємо марджин заголовків та параграфів до «0»  */
 
-ul,
-ol {
+ul {
   list-style: none;
   padding: 0;
   margin: 0;
@@ -129,7 +128,6 @@ img {
   text-align: center;
 }
 .comand-com {
-  width: 1440px;
   background-color: aqua;
 }
 .comand-main {
@@ -137,14 +135,30 @@ img {
 .list-comand {
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
 }
 .list-comand-foto {
+  padding: 10px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+.comand-task {
+  width: auto;
+  height: auto;
+  background-color: blueviolet;
+  padding-bottom: 50px;
 }
 .task-comand {
+}
+.task-tekst {
+  padding: 50px;
+  text-align: center;
 }
 .list-task {
 }
 .list-task-qwest {
+  padding-bottom: 20px;
 }
 .list-foto {
 }
