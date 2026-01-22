@@ -144,8 +144,6 @@ img {
   flex-direction: column;
 }
 .comand-task {
-  width: auto;
-  height: auto;
   background-color: blueviolet;
   padding-bottom: 50px;
 }
@@ -161,4 +159,28 @@ img {
   padding-bottom: 20px;
 }
 .list-foto {
+}
+.blok-footer {
+  background-color: burlywood;
+  height: 200px;
+}
+.contact-footer {
+}
+.contact-tel {
+}
+.contact-email {
+}
+.contat-adress {
+}
+.sociated-footer {
+}
+.sociated-list-footer {
+}
+.sociated-facebook {
+}
+.sociated-instagram {
+}
+.sociated-youtube {
+}
+.sociated-telegram {
 }
