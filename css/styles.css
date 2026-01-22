@@ -137,11 +137,15 @@ img {
   flex-direction: row;
   justify-content: space-between;
 }
+
 .list-comand-foto {
-  padding: 10px;
+  padding-bottom: 20px;
   text-align: center;
-  display: flex;
-  flex-direction: column;
+}
+.list-comand-foto img {
+  width: 200px;
+  padding: 10px;
+  height: 250px;
 }
 .comand-task {
   background-color: blueviolet;
