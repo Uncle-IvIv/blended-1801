@@ -170,6 +170,13 @@ img {
 }
 .contact-footer {
 }
+.contact-list-footer {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 50px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
 .contact-tel {
 }
 .contact-email {
@@ -179,12 +186,35 @@ img {
 .sociated-footer {
 }
 .sociated-list-footer {
+  display: flex;
+  justify-content: space-between;
 }
 .sociated-facebook {
+  padding: 50px 50px 10px 50px;
 }
 .sociated-instagram {
+  padding: 50px 50px 10px 50px;
 }
 .sociated-youtube {
+  padding: 50px 50px 10px 50px;
 }
 .sociated-telegram {
+  padding: 50px 50px 10px 50px;
+}
+.button-footer {
+  display: flex; /* Включаем Flexbox */
+  justify-content: center; /* Горизонтальное центрирование */
+  padding-top: 20px;
+}
+.button-footer-but {
+  background-color: red;
+  border: none;
+  color: white;
+  padding: 0px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 10%;
 }
