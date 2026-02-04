@@ -159,6 +159,40 @@
 </select>
 </form>
       </section>
+
+      <!-- Modal windows -->
+<section class="modal-win">
+<dialog class="modal">
+  <div class="modal-btn">
+    <h2>
+      Win Modal
+    </h2>
+      <p>Happy</p>
+  </div>
+  <button class="closeModal">Close</button>
+</dialog>
+<button class="openModal">Open</button>
+
+<script>
+const openModal = document.querySelector(`.openModal`)
+const closeModal = document.querySelector(`.closeModal`)
+const modal = document.querySelector(`.modal`)
+openModal.addEventListener(`click`, () =>{
+  modal.showModal()
+})
+closeModal.addEventListener(`click`, () =>{
+  modal.close()
+})
+/*чтоб закрылось при клик в любом месте кроме окна модал*/
+modal.addEventListener(`click` , (e) => {
+  console.log(e.target)
+if(e.target === modal) modal.close()
+})
+</script>
+
+</section>
+
+
     </main>
     <footer class="blok-footer">
       <div class="contact-footer">
