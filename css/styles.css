@@ -95,8 +95,7 @@ img {
 .header-social-item {
   padding-left: 10px;
 }
-.header-social-link {
-}
+
 .ul-main {
   display: flex;
 }
@@ -127,8 +126,7 @@ img {
 .comand-com {
   background-color: aqua;
 }
-.comand-main {
-}
+
 .list-comand {
   display: flex;
   flex-direction: row;
@@ -173,19 +171,16 @@ img {
   background-color: blueviolet;
   padding-bottom: 50px;
 }
-.task-comand {
-}
+
 .task-tekst {
   padding: 50px;
   text-align: center;
 }
-.list-task {
-}
+
 .list-task-qwest {
   padding-bottom: 20px;
 }
-.list-foto {
-}
+
 .blok-footer {
   background-color: burlywood;
 }
@@ -265,8 +260,7 @@ img {
   gap: 10px;
 }
 /* footer*/
-.contact-footer {
-}
+
 .contact-list-footer {
   display: flex;
   justify-content: space-between;
@@ -274,14 +268,7 @@ img {
   padding-left: 30px;
   padding-right: 30px;
 }
-.contact-tel {
-}
-.contact-email {
-}
-.contat-adress {
-}
-.sociated-footer {
-}
+
 .sociated-list-footer {
   display: flex;
   justify-content: space-between;
